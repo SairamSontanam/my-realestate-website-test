@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Projects</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Top Bar -->
+    <div class="top-bar">
+        <div class="container">
+            <div class="top-contact">
+              
+                <span><i class="fas fa-phone"></i>+91 8886666913</span>
+                <span><i class="fas fa-envelope"></i> gvr99developers@gmail.com</span>
+            </div>
+
+            <div class="top-social">
+                <!-- Facebook --> 
+                <a href="https://www.facebook.com/profile.php?id=61568520954634" target="_blank">
+  <i class="fa-brands fa-facebook " style="color:#fff;"></i>
+</a>
+
+<!-- X (Twitter) -->
+<a href="https://x.com/GVRdevelopers" target="_blank">
+  <i class="fa-brands fa-x-twitter " style="color:#fff;"></i>
+</a>
+
+<!-- Instagram -->
+<a href="https://www.instagram.com/gvr99developers_official/" target="_blank">
+  <i class="fa-brands fa-instagram " style="color:#fff;"></i>
+</a>
+
+<!-- LinkedIn -->
+<a href="https://www.linkedin.com/in/g-venkateswara-reddy-1abb3933a/" target="_blank">
+  <i class="fa-brands fa-linkedin " style="color:#fff;"></i>
+</a>
+
+<!-- WhatsApp -->
+<a href="https://wa.me/918886666913?text=Hi%20I'm%20from%20www.gvrdevelopers.in%2C%20I%20have%20just%20visited%20your%20website%20and%20I%20need%20to%20know%20more%20details%20about%20all%20your%20projects." target="_blank">
+  <i class="fa-brands fa-whatsapp " style="color:#fff;"></i>
+</a>
+
+<!-- Youtube -->
+  <a href="https://www.youtube.com/channel/UCiwzB0TbNAwrentWlvwZtng" target="_blank">
+      <i class="fa-brands fa-youtube
+      " style="color: #fff;"></i>
+    </a>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="images//gvr-color-logo.png" alt="gvr-color-logo" height="50">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="projects.html" class="active">Projects</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </nav>
+            <div class="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <!-- Page Header -->
+    <!-- <section class="page-header">
+        <div class="container">
+            <h1><b>Our Projects</b></h1>
+            <p>Discover our premium real estate developments</p>
+        </div>
+    </section> -->
+
+    <section class="hero-carousel">
+  <div class="overlay">
+    <h2>Our Projects</h2>
+    <p>Discover our premium real estate developments</p>
+  </div>
+</section>
+
+    <!-- Projects Filter -->
+    <section class="projects-filter">
+        <div class="container">
+            <div class="filter-buttons">
+                <button id="all" class="filter-btn active" data-filter="all">All Projects</button>
+                <button id="residential" class="filter-btn" data-filter="residential">Residential</button>
+                <button id="Farm Lands" class="filter-btn" data-filter="FarmLands">Farm Lands</button>
+                <button id="plots" class="filter-btn" data-filter="plots"> Open Plots</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Grid -->
+  
+<section class="projects-page-section">
+  <div class="container">
+    <div class="projects-grid">
+
+      <div class="project-card" data-category="residential" data-link="project-pages/Atulyam's Trident.html">
+        <img src="images/apartments_tellapur.jpg" alt="apartments_tellapur">
+        <div class="project-info">
+          <h3>Atulyam's Trident</h3>
+          <p>Premium residential apartments with modern amenities in Tellapur</p>
+          <div class="project-details">
+            <span><i class="fas fa-bed"></i> Exclusive 3 BHK's</span>
+            <span><i class="fas fa-ruler-combined"></i> 1495 - 2535 sq.ft.</span>
+          </div>
+          <a href="project-pages/Atulyam's Trident.html" class="project-btn">View Details</a>
+        </div>
+      </div>
+
+      <div class="project-card" data-category="plots,residential" data-link="project-pages/North County.html">
+        <img src="images/open-plots-medchal.png" alt="open-plots-medchal">
+        <div class="project-info">
+          <h3>North County</h3>
+          <p>Premium Residential & Open Plots located at Medchal</p>
+          <div class="project-details">
+            <span><i class="fas fa-home"></i> Open Plots</span>
+            <span><i class="fas fa-ruler-combined"></i> 150 - 645 sq.yds</span>
+          </div>
+          <a href="project-pages/North County.html" class="project-btn">View Details</a>
+        </div>
+      </div>
+
+      <div class="project-card" data-category="FarmLands" data-link="project-pages/lemon-tree-elite.html">
+        <img src="images/Lemon-Tree-Elite-tejo-vanam.png" alt="projects-open-plots">
+        <div class="project-info">
+          <h3>Lemon Tree Elite</h3>
+          <p>450 Acres of Gated Farmland at Vinukonda.</p>
+          <div class="project-details">
+            <span><i class="fa-solid fa-tree"></i> Open Farm Plots</span>
+            <span><i class="fas fa-ruler-combined"></i> 11 - 100 cents</span>
+          </div>
+          <a href="project-pages/lemon-tree-elite.html" target="_blank" class="project-btn">View Details</a>
+        </div>
+      </div>
+
+      <!-- <div class="project-card" data-category="residential" data-link="project-pages/Crystal-garden.html">
+        <img src="images/apartments-attapur-bird-eye.jpg" alt="apartments-attapur-bird-eye">
+        <div class="project-info">
+          <h3>Crystal Garden</h3>
+          <p>High-rise 3 & 4 BHK Apartments located at Attapur</p>
+          <div class="project-details">
+            <span><i class="fas fa-bed"></i> 3 & 4 BHK</span>
+            <span><i class="fas fa-ruler-combined"></i> 1640 - 5345 sq.ft.</span>
+          </div>
+          <a href="project-pages/Crystal-garden.html" class="project-btn">View Details</a>
+        </div>
+      </div> -->
+
+      <div class="project-card" data-category="FarmLands" data-link="project-pages/Lemon-Tree-Park.html">
+        <img src="images/lemon-tree-park-open-plots.jpg" alt="lemon-tree-park-open-plots">
+        <div class="project-info">
+          <h3>Lemon Tree Park</h3>
+          <p>Invest in Land. Invest in Peace — Jadcherla.</p>
+          <div class="project-details">
+            <span><i class="fa-solid fa-tree"></i> Open Farm Plots</span>
+            <span><i class="fas fa-ruler-combined"></i> 121 - 605 sq yards</span>
+          </div>
+          <a href="project-pages/Lemon-Tree-Park.html" class="project-btn">View Details</a>
+        </div>
+      </div>
+
+      <div class="project-card" data-category="plots" data-link="project-pages/Gayathri-Nagar.html">
+        <img src="images/gayathri-nagar-open-plots.jpg" alt="gayathri-nagar-open-plots">
+        <div class="project-info">
+          <h3>Gayathri Nagar</h3>
+          <p>Residential Open Plots Available at Vinukonda</p>
+          <div class="project-details">
+            <span><i class="fas fa-home"></i> Open Plots</span>
+            <span><i class="fas fa-ruler-combined"></i> 133.33 - 266.66 sq yards</span>
+          </div>
+          <a href="project-pages/Gayathri-Nagar.html" class="project-btn">View Details</a>
+        </div>
+      </div>
+
+      <div class="project-card" data-category="plots">
+        <img src="images/Padmavathi-gardens-card.png" alt="upcoming project">
+        <div class="project-info">
+          <h3>Padmavathi Gardens</h3>
+          <p>Premium open plots ideal for your dream home near Kurichedu, Prakasam District</p>
+          <div class="project-details">
+            <span><i class="fas fa-home"></i> Open Plots</span>
+            <span><i class="fas fa-ruler-combined"></i> BTA</span>
+          </div>
+          <a href="#" class="project-btn">Upcoming</a>
+        </div>
+      </div>
+
+      <div class="project-card" data-category="plots">
+        <img src="images/estate-planning.jpg" alt="upcoming project">
+        <div class="project-info">
+          <h3>Balaji Nagar</h3>
+          <p>Affordable open plots in a peaceful developing area near Dhanukonda</p>
+          <div class="project-details">
+            <span><i class="fas fa-home"></i> Open Plots</span>
+            <span><i class="fas fa-ruler-combined"></i> BTA</span>
+          </div>
+          <a href="#" class="project-btn">Upcoming</a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <img src="images/logo-white.png" alt="logo-white" height="40">
+                    <p>Building secure land investments with open plots and farmlands since 2010.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="projects.html">Projects</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Contact Info</h3>
+                    <p><i class="fas fa-map-marker-alt"></i>4th Floor, High Spirits, Capital Pk Rd, Madhapur, Hyderabad, Telangana 500081</p>
+                    <p><i class="fas fa-phone"></i>+91 8886666913</p>
+                    <p><i class="fas fa-envelope"></i>gvr99developers@gmail.com</p>
+                </div>
+                <div class="footer-section">
+                    <h3 style="padding-left: 10px;">Follow Us</h3>
+                    <div class="top-social">
+                <!-- Facebook --> 
+                <a href="https://www.facebook.com/profile.php?id=61568520954634" target="_blank">
+  <i class="fa-brands fa-facebook " style="color:#fff;"></i>
+</a>
+
+<!-- X (Twitter) -->
+<a href="https://x.com/GVRdevelopers" target="_blank">
+  <i class="fa-brands fa-x-twitter " style="color:#fff;"></i>
+</a>
+
+<!-- Instagram -->
+<a href="https://www.instagram.com/gvr99developers_official/" target="_blank">
+  <i class="fa-brands fa-instagram " style="color:#fff;"></i>
+</a>
+
+<!-- LinkedIn -->
+<a href="https://www.linkedin.com/in/g-venkateswara-reddy-1abb3933a/" target="_blank">
+  <i class="fa-brands fa-linkedin " style="color:#fff;"></i>
+</a>
+
+<!-- WhatsApp -->
+<a href="https://wa.me/918886666913?text=Hi%20I'm%20from%20www.gvrdevelopers.in%2C%20I%20have%20just%20visited%20your%20website%20and%20I%20need%20to%20know%20more%20details%20about%20all%20your%20projects." target="_blank">
+  <i class="fa-brands fa-whatsapp " style="color:#fff;"></i>
+</a>
+
+<!-- Youtube -->
+  <a href="https://www.youtube.com/channel/UCiwzB0TbNAwrentWlvwZtng" target="_blank">
+      <i class="fa-brands fa-youtube
+      " style="color: #fff;"></i>
+    </a>
+
+            </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 GVR 99 Developers. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script>
+        // Projects Filter Functionality
+        document.addEventListener('DOMContentLoaded', function() {
+            const filterButtons = document.querySelectorAll('.filter-btn');
+            const projectCards = document.querySelectorAll('.project-card');
+
+            filterButtons.forEach(button => {
+                button.addEventListener('click', function() {
+                    // Remove active class from all buttons
+                    filterButtons.forEach(btn => btn.classList.remove('active'));
+                    // Add active class to clicked button
+                    this.classList.add('active');
+
+                    const filterValue = this.getAttribute('data-filter');
+
+                    projectCards.forEach(card => {
+                        if (filterValue === 'all') {
+                            card.style.display = 'block';
+                        } else {
+                            if (card.getAttribute('data-category').includes(filterValue)) {
+                                card.style.display = 'block';
+                            } else {
+                                card.style.display = 'none';
+                            }
+                        }
+                    });
+                });
+            });
+        });
+    </script>
+</body>
+</html>
