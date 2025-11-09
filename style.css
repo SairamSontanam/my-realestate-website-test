@@ -718,7 +718,17 @@ footer {
 /* Active Navigation Link */
 nav ul li a.active {
     color: #e74c3c;
+    background-color: transparent;
 }
+nav ul li a:hover {
+  background-color: #f2f2f2; /* light hover effect */
+  color: orange;
+}
+
+nav ul li a.active:hover {
+  background-color: transparent; /* no background when active */
+}
+
 
 /* Page Header */
 .page-header {
